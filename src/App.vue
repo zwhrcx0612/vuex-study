@@ -1,17 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <!-- state -->
+    <!-- <Counter /> -->
+    <!-- getter -->
+    <!-- <Getter /> -->
+    <!-- Mutations -->
+    <!-- <Mutations /> -->
+    <!-- <Action /> -->
+    <Module />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import HelloWorld from './components/HelloWorld.vue'
+// import Counter from './view/Counter'
+// import Getter from './view/Getter'
+// import Mutations from './view/Mutations'
+// import Action from './view/Action'
+import Module from './view/Module'
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld
+    // Counter,
+    // Getter,
+    // Mutations,
+    // Action,
+    Module
   }
 }
 </script>
